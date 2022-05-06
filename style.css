@@ -105,6 +105,8 @@ header {
 
 #img-banniere {
     border: 10px solid white;
+    /* width: 100%; */
+    /* height: auto; */
 }
 
 #hr-info {
@@ -123,18 +125,20 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
     height: 300px;
     margin: 0 15%;
 }
 
-.bloc-info {
+/* .bloc-info {
     margin: 500px 0;
 
-}
+} */
 
 
 .img-info {
     border: 10px solid white;
+    width: 90%;
 }
 
 .title-info {
@@ -311,3 +315,133 @@ header {
     text-decoration: underline;
     cursor: pointer;
 }
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1140px) {
+
+    /* NAVBAR */
+
+
+    /* BANNIERE */
+
+    #img-banniere {
+        width: 100%;
+    }
+
+    /* INFO */
+
+    /* .bloc-info {
+        
+    
+    } */
+
+    .img-info {
+        width: 80%;
+    }
+
+    /* .title-info {
+        color: white;
+        font-size: 10px;
+        margin: 20px 0;
+    } */
+    
+    /* .text-info {
+        color: rgb(201, 198, 198);
+    } */
+
+
+
+
+
+}
+
+@media screen and (max-width: 960px) {
+
+    /* NAVBAR */
+    #title-navbar {
+        display: block;
+        margin: auto;
+    }
+
+    #ul-navbar {
+        display: none;
+    }
+
+    /* BANNIERE */
+
+    
+
+    #p-banniere {
+        font-size: 22px;
+    }
+
+    #button-banniere {
+        height: 30px;
+        width: 120px;
+    }
+
+    /* INFO */
+
+    
+
+
+
+
+
+}
+
+@media screen and (max-width: 720px) {
+
+    /* NAVBAR */
+    /* BANNIERE */
+
+    #banniere {
+        height: 300px;
+    }
+
+    #padding-banniere {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 30%;
+    }
+
+    #img-banniere {
+        /* width: 50%; */
+    }
+
+    #p-banniere {
+        font-size: 25px;
+        text-align: center;
+        margin: 10% 0;
+    }
+
+    #button-banniere {
+        height: 50px;
+        width: 160px;
+        display: block;
+        margin: auto;
+    }
+
+    /* INFO */
+    /* CARD */
+    /* END */
+
+
+}
+
+@media screen and (min-width: 540px) {
+
+    /* NAVBAR */
+    /* BANNIERE */
+    /* INFO */
+    /* CARD */
+    /* END */
+
+
+}
+
+
+
+
