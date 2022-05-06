@@ -11,21 +11,12 @@ ul {
     list-style: none;
 }
  
-hr {
-    display: block; 
-    height: 1px;
-    width: 90%;
-    border: 0; 
-    border-top: 1px solid #ccc;
-    margin: 1.3em 0; 
-    padding: 0;
-    
-}
 
 
 .underline {
     text-decoration: underline;
     color: white;
+    cursor: pointer;
 }
 
 .white {
@@ -172,6 +163,16 @@ header {
     margin-top: 30px;
 }
 
+.hr-card {
+    display: block; 
+    height: 1px;
+    width: 90%;
+    border: 0; 
+    border-top: 1px solid rgb(224, 221, 221);
+    margin: 1.3em 0; 
+    padding: 0;
+}
+
 #text-card {
     color: rgb(90, 88, 88);
     line-height: 30px;
@@ -216,13 +217,73 @@ header {
 
 #end {
     background-image: url(./images/assets/bg03.jpg);
-    height: 350px;
+    height: 500px;
+}
+
+#content-end {
+    display: flex;
+    justify-content: center;
 }
 
 #ul-end {
     display: flex;
+    margin-top: 20px;
+}
+
+#ul-end li{
+    margin-right: 50px;
+    color: grey;
+
 }
 
 .title-end {
+    margin-top: 50px;
     font-size: 30px;
+    color: rgb(73, 72, 72);
+}
+
+.hr-end {
+    margin: 10px 0px;
+    display: block; 
+    height: 3px;
+    width: 90%;
+    border: 0; 
+    border-top: 1px solid rgb(170, 170, 170);
+    /* margin: 1.3em 0;  */
+    padding: 0;
+}
+
+#ul-end a {
+    color: rgb(134, 134, 134);
+}
+
+#bloctext-end {
+    margin-left: 50px;
+}
+
+#text-end {
+    color: rgb(134, 134, 134);
+    line-height: 2;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#contact-hr {
+    margin: 50px 0;
+    display: block; 
+    height: 3px;
+    border: 0; 
+    border-top: 1px solid rgb(170, 170, 170);
+    padding: 0;
+}
+
+#contact-text {
+    color: rgb(158, 155, 155);
+    text-align: center;
+
+}
+
+.underline-end {
+    text-decoration: underline;
+    cursor: pointer;
 }
