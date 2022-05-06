@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    width: 100%;
 }
 
 ul {
@@ -29,9 +30,10 @@ header {
 
 #navbar {
     display: flex;
-    justify-content: space-evenly;
-    height: 100px;
-    padding: 10px;
+    justify-content: space-between;
+    height: 70px;
+    margin: 0 15%;
+    /* padding: 10px; */
 }
 
 #title-navbar a {
@@ -40,7 +42,6 @@ header {
 } 
 
 #title-navbar {
-    margin-right: 50px;
     display: flex;
     align-items: center;
 }
@@ -60,20 +61,25 @@ header {
     font-size: 20px;
 }
 
+#hr-navbar {
+    border-top: 1px solid rgb(43, 43, 43);
+    border-bottom: 1px solid rgb(54, 54, 54) ;
+}
+
 /* BANNIERE */
 
 
 
 #banniere {
-    border: 1.5px solid rgb(44, 43, 43);
+    margin: 0 15%;
 }
 
 #padding-banniere {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     height: 250px;
-    padding: 0px 400px;
+    /* padding: 0px 400px; */
 }
 
 
@@ -101,19 +107,29 @@ header {
     border: 10px solid white;
 }
 
+#hr-info {
+    border-top: 1px solid rgb(71, 71, 71);
+    border-bottom: 1px solid rgb(43, 43, 43) ;
+}
+
 
 /* INFO */
+
+#section-info {
+    background-image: url(./images/assets/bg02.jpg);
+}
 
 #info {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    background-image: url(./images/assets/bg02.jpg);
+    justify-content: space-between;
     height: 300px;
+    margin: 0 15%;
 }
 
-#bloc-info {
-    margin: 100px 10px;
+.bloc-info {
+    margin: 500px 0;
+
 }
 
 
@@ -133,10 +149,14 @@ header {
 
 /*  CARD  */
 
-#card {
+#section-card {
     background-image: url(./images/assets/bg04.png);
+}
+
+#card {
+    margin: 0 15%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .content-card {
@@ -145,7 +165,7 @@ header {
     padding: 10px 10px;
     background-color: white;
     box-shadow: 3px 5px 5px rgb(204, 202, 202);
-    margin: 50px 20px;
+    margin: 50px 0px;
 }
 
 .title-card {
@@ -165,10 +185,11 @@ header {
 
 .hr-card {
     display: block; 
-    height: 1px;
+    height: 0px;
     width: 90%;
     border: 0; 
-    border-top: 1px solid rgb(224, 221, 221);
+    border-top: 1px solid rgb(158, 158, 158);
+    border-bottom: 1px solid rgb(255, 255, 255) ;
     margin: 1.3em 0; 
     padding: 0;
 }
@@ -218,11 +239,13 @@ header {
 #end {
     background-image: url(./images/assets/bg03.jpg);
     height: 500px;
+
 }
 
 #content-end {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 15%;
 }
 
 #ul-end {
@@ -243,14 +266,14 @@ header {
 }
 
 .hr-end {
-    margin: 10px 0px;
     display: block; 
-    height: 3px;
+    height: 0px;
     width: 90%;
     border: 0; 
-    border-top: 1px solid rgb(170, 170, 170);
-    /* margin: 1.3em 0;  */
+    border-top: 1px solid rgb(158, 158, 158);
+    border-bottom: 1px solid rgb(255, 255, 255) ;
     padding: 0;
+    margin: 10px 0px;
 }
 
 #ul-end a {
@@ -271,9 +294,10 @@ header {
 #contact-hr {
     margin: 50px 0;
     display: block; 
-    height: 3px;
+    height: 0px;
     border: 0; 
-    border-top: 1px solid rgb(170, 170, 170);
+    border-top: 1px solid rgb(158, 158, 158);
+    border-bottom: 1px solid rgb(255, 255, 255) ;
     padding: 0;
 }
 
